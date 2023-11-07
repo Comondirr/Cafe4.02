@@ -43,7 +43,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
-
+    <Button
+        android:id="@+id/buttonloguot"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#854031"
+        android:text="Выйти из аккаунта"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="300dp"

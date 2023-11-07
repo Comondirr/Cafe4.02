@@ -8,45 +8,61 @@
         android:id="@+id/coffeeImage"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        android:background="#C3B964" />
 
     <TextView
         android:id="@+id/coffeeName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:paddingTop="8dp"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
         android:background="#C3B964"
-        />
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
 
     <TextView
-        android:background="#6AC364"
         android:id="@+id/coffeeDescription"
         android:layout_width="match_parent"
-        android:layout_height="151dp"
-        android:paddingTop="8dp"
-        android:textSize="14sp" />
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:padding="12dp"
+        android:background="#B67669"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:textSize="18sp"
         android:id="@+id/chatRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
-android:background="#C3B964"
+        android:padding="16dp"
+        android:layout_margin="16dp"
         android:clipToPadding="false"
-        android:padding="16dp" />
+        android:background="#B67669" />
 
     <EditText
         android:id="@+id/chatInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Type a message"
-        />
+        android:hint="Чат"
+        android:padding="12dp"
+
+        android:layout_margin="16dp"
+        android:background="#F0F0F0" />
 
     <Button
         android:id="@+id/sendButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"/>
+        android:text="отправить"
+        android:backgroundTint="#854031"
+        android:layout_margin="16dp"
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>

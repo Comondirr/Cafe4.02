@@ -30,6 +30,8 @@ class CoffeeAdapter : RecyclerView.Adapter<CoffeeAdapter.CoffeeViewHolder>() {
         holder.itemView.setOnClickListener {
             val intent = Intent(it.context, CoffeeDetailActivity::class.java)
             intent.putExtra("COFFEE_NAME", currentItem.name)
+            intent.putExtra("COFFEE_DESCRIPTION", currentItem.description)
+            intent.putExtra("COFFEE_IMAGE", currentItem.img)
             it.context.startActivity(intent)
         }
     }

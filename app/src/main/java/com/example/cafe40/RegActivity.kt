@@ -47,11 +47,7 @@ class RegActivity : AppCompatActivity() {
                 }
         }
 
-        // Обработчик кнопки "Назад"
-        val backButton = findViewById<Button>(R.id.back_btn_reg)
-        backButton.setOnClickListener {
-            finish()
-        }
+
     }
 }
 

@@ -20,17 +20,18 @@ class LogActivity : AppCompatActivity() {
         setContentView(R.layout.activity_log)
 
         auth = FirebaseAuth.getInstance()
-        sharedPreferences = getSharedPreferences("com.example.auto3", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("com.example.cafe40", Context.MODE_PRIVATE)
 
         val loginButton = findViewById<Button>(R.id.login_btn)
         val checkBoxMemory = findViewById<CheckBox>(R.id.CheckboxMemory)
 
-        // Проверьте, был ли пользователь уже вошел в систему
+
         if (sharedPreferences.getBoolean("isChecked", false)) {
             val intent = Intent(this, CoffiActivity::class.java)
             startActivity(intent)
             finish()
         }
+
 
         loginButton.setOnClickListener {
             val email = findViewById<EditText>(R.id.login_email).text.toString()
@@ -62,9 +63,6 @@ class LogActivity : AppCompatActivity() {
                 }
         }
 
-        val backButton = findViewById<Button>(R.id.back_btn_login)
-        backButton.setOnClickListener {
-            finish()
-        }
+
     }
 }
