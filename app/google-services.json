@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "579296666887",
+    "firebase_url": "https://cafe-96724-default-rtdb.firebaseio.com",
+    "project_id": "cafe-96724",
+    "storage_bucket": "cafe-96724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579296666887:android:94f07e0fe5e233992751a2",
+        "android_client_info": {
+          "package_name": "com.example.cafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvszGxK2Q_Z5UHP-k-GaIruwcaesIo7Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579296666887:android:18f43309cf1ff2152751a2",
+        "android_client_info": {
+          "package_name": "com.example.cafe20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvszGxK2Q_Z5UHP-k-GaIruwcaesIo7Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579296666887:android:0cfb38521746df212751a2",
+        "android_client_info": {
+          "package_name": "com.example.cafe40"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvszGxK2Q_Z5UHP-k-GaIruwcaesIo7Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
